@@ -1,0 +1,62 @@
+ .container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 600px;
+    margin: 0 auto;
+ }
+
+ .svg {
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.747);
+    border-radius: 50%;
+ }
+
+ .containerInfo {
+    display: flex;
+    padding-top: 25px;
+    margin-bottom: 25px;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(211, 211, 211, 0.11);
+ }
+
+ .name {
+    font-size: 52px;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+ }
+ .st {
+    font-size: 42px;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+    color: darkgrey;
+ }
+
+ .items {
+    display: flex;
+    background-color: lightgray;
+    border-top: 3px solid darkgrey;
+ }
+
+ .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+    width: 100%;
+    padding: 20px 0;
+ }
+ .item:not(:last-child) {
+   border-right: 3px solid darkgrey;
+ }
+ .span {
+    font-weight: 700;
+ }

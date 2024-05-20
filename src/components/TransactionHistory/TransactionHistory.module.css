@@ -1,0 +1,38 @@
+.table {
+    width: 600px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+}
+
+td {
+width: calc(100% / 3);
+}
+
+td,
+tr,
+th {
+    border: 2px solid black;
+    font-size: 24px;
+}
+.row {
+ color: black;
+}
+.row:nth-child(odd) {
+    background-color: white;
+}
+
+.row:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+.typeTransaction  {
+    text-align: center;
+    text-transform: capitalize;
+    padding-left: 50px;
+}
